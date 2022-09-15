@@ -6,9 +6,13 @@ The purpose of this analysis is to predict whether applicants will be successful
 ## Results 
 
 ### Data Preprocessing
-- The variable that is considered the target for the model is the "IS_SUCCESSFUL" variable
-- The variables that are considered the features for the model would be all the other variables except the "IS_SUCCESSFUL" variable
-- What variables are neither targets nor features, and should that were removed from the input data are "EIN" and "NAME"
+- The variable that is considered the target for the model is the "IS_SUCCESSFUL" variable.
+- The variables that are considered the features for the model would be all the other variables except the "IS_SUCCESSFUL" variable.
+- What variables are neither targets nor features, and should that were removed from the input data are "EIN" and "NAME".
 
 ### Compiling, Training, and Evaluating the Model
-- In the neural network model, there were 2 layers, with the first layer containing 80 neurons and the second containing 30. This was because there were 41 features, and as a rule of thumb, the first layer's neurons should be about double of the amount of features, hence the 80 neurons in the first layer. The second layer contained 30 neurons as it is about half of the first layer. Lastly, the activation functions that was used  
+- In the neural network model, there were 2 layers, with the first layer containing 80 neurons and the second containing 30. This was because there were 41 features, and as a rule of thumb, the first layer's neurons should be about double of the amount of features, hence the 80 neurons in the first layer. The second layer contained 30 neurons as it is about half of the first layer. Lastly, the activation functions that was used for the first and second layer is the ReLu function and for the outer layer was the Sigmoid function.
+
+![original](https://user-images.githubusercontent.com/64383146/190311360-236d1c07-d7fb-4b03-a86d-fb0d86f7654e.png)
+
+- The image above shows the target model performance at an accuracy of 73%, so I was not able to acheive the target model performance of 75%
