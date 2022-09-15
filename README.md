@@ -15,4 +15,21 @@ The purpose of this analysis is to predict whether applicants will be successful
 
 ![original](https://user-images.githubusercontent.com/64383146/190311360-236d1c07-d7fb-4b03-a86d-fb0d86f7654e.png)
 
-- The image above shows the target model performance at an accuracy of 73%, so I was not able to acheive the target model performance of 75%
+- The image above shows the target model performance at an accuracy of 73%, so I was not able to acheive the target model performance of 75%.
+
+![first_attempt](https://user-images.githubusercontent.com/64383146/190313772-790bd418-a44b-403b-9760-f0114fb12009.png)
+
+- The first step I took to try and increase the model performance was to increase the the amount of neurons in the layers, changing the first layer from 80 to 120 neurons and the second layer from 30 to 80 neurons. The image above shows that the accuracy was 72.85%, meaning that this model was not optimized.
+
+![second_attempt](https://user-images.githubusercontent.com/64383146/190314691-a86a0015-cc69-41c2-866c-cbd037daa964.png)
+
+- The second step I took to try and increase the model performance was to increase the amount of layers in the model. The image above shows that the accuracy was 72.93%, a bit better than the first step but it was still not optimized.
+
+![third_attempt](https://user-images.githubusercontent.com/64383146/190315625-cfbe3489-6126-4483-9cbf-f5f52c4f3743.png)
+
+
+- The last step I tried was to change the activation functions for the layers. I changed activation functions for both the layers from the ReLu fuction to the Sigmoid function. The image above shows that the accuracy was 73.01%, meaning that the optimization was the same as the original model.
+
+## Summary
+The overall results of the deep learning model was that the accuracy was not able to reach the optimized amount of 75%. Though it was able to get close, it was not able to reach it even after changing some features.
+
