@@ -33,3 +33,5 @@ The purpose of this analysis is to predict whether applicants will be successful
 ## Summary
 The overall results of the deep learning model was that the accuracy was not able to reach the optimized amount of 75%. Though it was able to get close, it was not able to reach it even after changing some features.
 
+A different model that can be used to solve this classification problem could be the Random Forest classifier as it is known to have a high accuracy rate and high interpretability.
+
